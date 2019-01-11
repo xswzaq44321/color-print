@@ -11,13 +11,13 @@
 
 int main()
 {
-  printf(RED "red\n" RESET);
-  printf(GRN "green\n" RESET);
-  printf(YEL "yellow\n" RESET);
-  printf(BLU "blue\n" RESET);
-  printf(MAG "magenta\n" RESET);
-  printf(CYN "cyan\n" RESET);
-  printf(WHT "white\n" RESET);
-  printf("This is " RED "red" RESET " and this is " BLU "blue" RESET "\n");
-  return 0;
+	printf(RED "red\n" RESET);
+	printf(GRN "green\n" RESET);
+	printf(YEL "yellow\n" RESET);
+	printf(BLU "blue\n" RESET);
+	printf(MAG "magenta\n" RESET);
+	printf(CYN "cyan\n" RESET);
+	printf(WHT "white\n" RESET);
+	printf("This is " RED "red" RESET " and this is " BLU "blue" RESET "\n");
+	return 0;
 }
